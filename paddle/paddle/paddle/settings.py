@@ -87,7 +87,7 @@ DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'paddle', 
-       'USER': 'root',  #postgres
+       'USER': 'root',  #postenv\Scripts\activate gres
        'PASSWORD': '070894', 
         'HOST': 'localhost', #localhost
         'PORT': '3306',
