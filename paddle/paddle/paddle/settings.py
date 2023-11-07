@@ -88,7 +88,7 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'paddle', 
        'USER': 'root',  #postenv\Scripts\activate gres
-       'PASSWORD': '070894', 
+       'PASSWORD': '07git commit -m "comments here"0894', 
         'HOST': 'localhost', #localhost
         'PORT': '3306',
     }
