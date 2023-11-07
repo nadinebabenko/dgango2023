@@ -22,12 +22,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get("SECRET_KEY")
+#SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = 'django-insecure-8_sj)1&t(@d8l50e^7kmh16h9-_7hv+2icyt0zqmc3gwjdtc&o'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get("DEBUG", "False").lower() == "True"
+#DEBUG = os.environ.get("DEBUG", "False").lower() == "True"
+DEBUG = True
 
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
+#ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
+ALLOWED_HOSTS = []
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -88,13 +91,16 @@ DATABASES = {
        'ENGINE': 'django.db.backends.mysql',
        'NAME': 'paddle', 
        'USER': 'root',  #postenv\Scripts\activate gres
-       'PASSWORD': '07git commit -m "comments here"0894', 
+       'PASSWORD': '070894', 
         'HOST': 'localhost', #localhost
         'PORT': '3306',
     }
 }
-##database_url = os.environ.get("DATABASE_URL")
-#DATABASES ['default'] = dj_database_url.parse(database_url) 
+
+DATABASES ["default"] = dj_database_url.parse("postgres://testdb_hl4v_user:0ZNEyggdjHMi8ebYNvQNft6D1LKz54WA@dpg-cl35o2ot3kic73d7j7b0-a.oregon-postgres.render.com/testdb_hl4v")
+
+#database_url = os.environ.get("DATABASE_URL")
+ 
 
  
 
