@@ -7,5 +7,5 @@ database = mysql.connector.connect(
 )
 
 cursorObject = database.cursor()
-cursorObject.execute("CREATE DATABASE paddle2 ")
+cursorObject.execute("CREATE DATABASE paddle ")
 print("Database created")

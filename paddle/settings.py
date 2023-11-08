@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-8_sj)1&t(@d8l50e^7kmh16h9-_7hv+2icyt0zqmc3gwjdtc&o
 DEBUG = True
 
 #ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-ALLOWED_HOSTS = ['dgangorender.onrender.com']
+ALLOWED_HOSTS = ['dgangorender.onrender.com', 'dsdsdsds-d7qc.onrender.com']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'paddle.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.mysql',
-       'NAME': 'paddle', 
+       'NAME': 'djangodate', 
        'USER': 'root',  #postenv\Scripts\activate gres
        'PASSWORD': '070894', 
         'HOST': 'localhost', #localhost
