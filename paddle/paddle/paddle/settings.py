@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-8_sj)1&t(@d8l50e^7kmh16h9-_7hv+2icyt0zqmc3gwjdtc&o
 DEBUG = True
 
 #ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ")
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dgangorender.onrender.com']
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/'
